@@ -1,5 +1,4 @@
 def number(num):
-        # Кількості цифр в числі
         count = 0
         while num> 0:
             count += 1
@@ -7,18 +6,15 @@ def number(num):
         return count
 
 def para(num):
-        # Функція парності 
         return number(num) % 2 == 0
 
 def numbers(nums):
     count = 0  
-
     for num in nums:
         if para(num):
             count += 1
 
     return count
-
 
 nums = [234, 4567, 12, 344, 4, 3456]
 print("Чисел з парною кількістю цифр: ", numbers(nums))
