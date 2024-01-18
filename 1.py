@@ -1,6 +1,6 @@
 def one(nums):
-    suma = 0 #Максимальної кількості повторень 1-ці
-    current_count = 0  # Поточної кількості повторень 1-ці
+    suma = 0 
+    current_count = 0 
 
     for num in nums:
         if num == 1:
@@ -11,7 +11,6 @@ def one(nums):
 
     return suma
 
-# Приклад використання:
 nums = [1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1]
 print("Максимальна кількість повторень 1-ці:", one(nums))
 
